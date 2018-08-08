@@ -1,0 +1,21 @@
+https://github.com/schoolofcode-me/rest-api-sections/tree/master/section3
+
+# make a new environment with conda:
+conda create -n flapp_env python=3.5
+
+# check available environments
+conda info --envs
+
+# check installed packages
+conda list
+
+
+# enter environment
+activate flapp_env
+
+# exit environment
+deactivaet
+
+
+# install Flask-RESTful
+pip install Flask-RESTful
